@@ -56,7 +56,7 @@ def get_unit(package: list[dict]) -> str:
 if __name__ == '__main__':
     
     text = "25 balls in 1 bucket / 4 buckets in 1 bin"
-    package = parse_packaging(text)
+    package = parse_packaging()
     print(package)
 
     package_total = calc_total_units(package)
